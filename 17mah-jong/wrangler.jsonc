@@ -1,0 +1,25 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "mahjong-17",
+	"compatibility_date": "2026-08-19",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"main": "./worker/index.ts",
+	"assets": {
+		"binding": "ASSETS",
+		"not_found_handling": "none"
+	},
+	"images": {
+		"binding": "IMAGES"
+	},
+	"d1_databases": [
+		{
+			"binding": "mahjong_db",
+			"database_name": "mahjong-db",
+			"database_id": "1da0c2e9-decc-4cca-9a9d-fb97cdc18afa",
+			"remote": true,
+			"migrations_dir": "drizzle"
+		}
+	]
+}
