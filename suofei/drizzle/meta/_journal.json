@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786844314136,
+      "tag": "0000_futuristic_nova",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1786844333858,
+      "tag": "0001_polite_archangel",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786845362265,
+      "tag": "0002_careless_expediter",
+      "breakpoints": true
+    }
+  ]
+}
